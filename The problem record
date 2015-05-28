@@ -1,0 +1,18 @@
+version1.0
+步骤和难点
+1.布局,封装一个一行四块的白块
+2.难点.怎么去随机一个黑块出来.
+3.难点,怎么去判断我点击到黑色提示正确,当然也可以用一些复杂的方法去获取,比如添加一个文字,将其颜色设置为button背景色,然后使用UIColor *normalTitleColor = [loginButton titleColorForState:UIControlStateNormal];来获取
+4.如何在点击了最后一行后,上面出来一行
+5.难点,如何把刚下移的这一行变成可点击的
+6.难点.如何实现循环的出来,
+
+
+难点的解决都在程序里进行注释了.
+
+version1.1
+使用target-action进行解耦
+添加了计数器和动画,在添加计数器的方面学习了UIalertView的使用方法
+1.怎么给alertView上的按钮添加事件,比如点击提示框gameOver,我要返回主页面,点击查看分数,我要返回到查看分数页面
+2.怎么把一个VC中的数值传递到另一个view中并且显示在label上,可以尝试用delagate
+
